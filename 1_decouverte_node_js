@@ -1,0 +1,28 @@
+# Découverte de NodeJS.
+
+Support de cours commun : https://semestriel.framapad.org/p/codenodejs-gly0zj1ya6-ahok?lang=fr
+
+Vous pouvez noter dans ce support de cours des liens de référence, des exemples de code ou de prompt. Vous pouvez aussi noter vos questions, vos observations, etc...
+
+## Connexion
+Renseignez-vous sur NodeJS et écrivez dans le support de cours commun un concept qui attire votre attention. 
+
+## 1. Action : Installer NodeJS
+Vous devez installer NodeJS sur votre poste de travail. 
+
+Livrable :
+Vous êtes capable d'afficher la version de NodeJS installée sur votre machine avec la commande 
+
+```shell
+node -v
+```
+
+
+
+### Références
+- https://nodejs.org/fr
+- https://nodejs.org/fr/download
+
+## 
+
+## Installation de typescript
