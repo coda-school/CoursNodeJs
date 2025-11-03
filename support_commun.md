@@ -281,7 +281,7 @@ const { URL } = require('url');
 const u = new URL('https://ex.com/path?a=1');
 u.searchParams.set('b','2'); // -> https://ex.com/path?a=1&b=2
 
-![images/01.png]
+![](images/01.png)
 
 
 
