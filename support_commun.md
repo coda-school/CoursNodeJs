@@ -282,6 +282,12 @@ const u = new URL('https://ex.com/path?a=1');
 u.searchParams.set('b','2'); // -> https://ex.com/path?a=1&b=2
 
 ![](images/01.png)
+![](images/02.png)
+![](images/03.png)
+![](images/04.png)
+![](images/05.png)
+![](images/06.png)
+![](images/07.png)
 
 
 
