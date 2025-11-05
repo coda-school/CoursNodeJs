@@ -1,3 +1,57 @@
+![](images/01.png)
+![](images/02.png)
+![](images/03.png)
+![](images/04.png)
+![](images/05.png)
+![](images/06.png)
+![](images/07.png)
+![](images/mardi.svg)
+
+THOMAS MICHELIN
+Consumer-Driven Contract Testing (CDCT) : les consommateurs (web/mobile/services) publient des contrats décrivant leurs attentes (schémas, champs, codes HTTP). L’API est vérifiée en CI contre ces contrats avant déploiement, ce qui empêche les breaking changes d’arriver en production. 
+
+PHONG ET ARTHUR FEUILLE A1 MDRRRRRRRRRRR
+Il est possible en allumant votre propre serveur node.js d'accéder via curl sa propre api : curl http://localhost:(porc🐷)
+Vous pouvez également enregistrer les informations dans un fichier json, txt : curl -o test.json http://localhost:8000
+test.json = le nom du fichier que vous voulez créer
+
+
+
+
+
+
+
+
+
+Matthieu et Tom
+
+Avec curl sans option, la méthode par défaut est GET.
+Pour spécifier une autre méthode HTTP, on utilise -X METHOD.
+Pour envoyer des données dans le corps de la requête (POST, PUT), on utilise -d ou -d @fichier.
+L’en-tête Content-Type est souvent nécessaire pour informer le serveur du format des données (ex. application/json).
+L’option -v est précieuse pour le debug (voir les en-têtes, le status, etc.).
+La méthode OPTIONS permet de découvrir les méthodes HTTP acceptées par une ressource (utile pour découvrir les possibilités de l’API).
+On peut rediriger la sortie dans un fichier avec -o
+
+
+
+
+Léo & Romaric :
+Tests de validation de schéma (Schema Validation)
+🔹 On vérifie que la réponse de l’API respecte un format JSON attendu.
+Tests de régression
+🔹 Ils s’assurent qu’une nouvelle modification du code n’a pas cassé des fonctionnalités existantes.
+Contract Testing (Pact)
+🔹Le Contract Testing est de plus en plus utilisé dans les architectures microservices.
+🔹Il garantit la cohérence entre clients et serveurs, sans devoir lancer tout le système.
+🔹C’est un pont entre équipes frontend et backend, qui réduit drastiquement les bugs liés à la communication.
+Tests de régression
+🔹 Ils s’assurent qu’une nouvelle modification du code n’a pas cassé des fonctionnalités existantes.
+
+
+----------------------------------
+
+
 waitFor : 
     
 ```typescript
@@ -281,13 +335,7 @@ const { URL } = require('url');
 const u = new URL('https://ex.com/path?a=1');
 u.searchParams.set('b','2'); // -> https://ex.com/path?a=1&b=2
 
-![](images/01.png)
-![](images/02.png)
-![](images/03.png)
-![](images/04.png)
-![](images/05.png)
-![](images/06.png)
-![](images/07.png)
+
 
 
 
