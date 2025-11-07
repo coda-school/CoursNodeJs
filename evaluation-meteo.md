@@ -64,7 +64,6 @@ response: {id: number}
 Suppression d'un bulletin météo 
 ```
 DELETE /weather/{id}
-la ville
 response: {}
 ```
 
