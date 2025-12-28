@@ -90,8 +90,6 @@ npx tsc --init
 
 --------
 
-#33#
-
 Il était une fois le Javascript fullstack
 https://www.commitstrip.com/fr/2016/05/06/a-story-about-full-stack-javascript/?
 
@@ -102,7 +100,7 @@ C'est un environnement d'exécution en JavaScript open-source, multiplateforme e
 
 Concrètement, Node.js est un environnement bas niveau permettant l'exécution de JavaScript côté serveur. 
 
-    NodeJS a pour package manager principal, npm qui se base sur le registre de paquets npmjs.org, créé et maintenu par Github (Microsoft)
+NodeJS a pour package manager principal, npm qui se base sur le registre de paquets npmjs.org, créé et maintenu par Github (Microsoft)
 
 
     Node.js est créé par Ryan Dahl en 2009. Il à était imaginer suite à l’observation d’un chargement de fichier sur le site Flickr : Le navigateur ne savait pas quel pourcentage du fichier était chargé et devait adresser une requête au serveur web. Dahl à donc voulu développer une méthode plus simple. Le serveur web Mongrel de Ruby fût l’autre source d’inspiration du créateur, après que Dahl ai échoué dans plusieurs projets en différents langages, il commença à s’intéresser à JavaScript à la suite de la diffusion du moteur V8 (Moteur open-souce javascript développé par Web Google Chrome et Chromium, et non le moteur de voiture)
@@ -146,7 +144,7 @@ nvm : https://github.com/nvm-sh/nvm
 npm: https://npmjs.org
 pnpm > npm : https://pnpm.io/fr/
 
-##Asynchrone
+## Asynchrone
 
 Il est non-bloquant et asynchrone, ce qui signifie que les opérations de lecture/écriture, comme la lecture de fichiers ou les requêtes réseau, ne bloquent pas le programme. Cela le rend particulièrement efficace pour des applications en temps réel, comme des chats ou des APIs.
 
@@ -165,9 +163,9 @@ Node js: https://nodejs.org/fr/about
 
 
 
-##Avantages et inconvénients
+## Avantages et inconvénients
 
-###Avantages:
+### Avantages:
     
 
     Évolutivité facile
@@ -185,7 +183,7 @@ Node js: https://nodejs.org/fr/about
     Offre la liberté de développer des applications
 
 
-###Inconvénients:
+### Inconvénients:
     
 
     Interface de programmation d’applications (API) instable
@@ -334,6 +332,7 @@ Parser/construire des URLs.
 const { URL } = require('url');
 const u = new URL('https://ex.com/path?a=1');
 u.searchParams.set('b','2'); // -> https://ex.com/path?a=1&b=2
+
 
 
 
